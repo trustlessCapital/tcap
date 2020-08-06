@@ -1,0 +1,48 @@
+{
+    "backend": {
+      "accounts": [
+        "0xD9995BAE12FEe327256FFec1e3184d492bD94C31"
+      ]
+    },
+    "multisig": {
+      "owners": [
+        "0xD9995BAE12FEe327256FFec1e3184d492bD94C31"
+      ],
+      "threshold": 1,
+      "autosign": true
+    },
+    "settings": {
+      "deployer": {
+        "type": "ganache"
+      },
+      "lockPeriod": 480,
+      "recoveryPeriod": 480,
+      "securityPeriod": 240,
+      "securityWindow": 240,
+      "feeRatio": 15,
+      "defaultLimit": "1000000000000000000"
+    },
+    "Kyber": {
+      "deployOwn": true,
+      "contract": "0xc9707E1e496C12f1Fa83AFbbA8735DA697cdBf64"
+    },
+    "contracts": {
+      "MultiSigWallet": "0xa6DD34f3CeA10D1F78c0b1F8C13eFbAbE5DF9708",
+      "WalletFactory": "0xa00f6A3a3D00979D7B7E23D7C7dF6CC7E255Ad88",
+      "TokenPriceProvider": "0x305b8DDA35b2e9b395E63Ad7B4e845859ab3aB4e",
+      "ModuleRegistry": "0xEE43f3f33d2972441251887FbB7C64D2fD55677f",
+      "BaseWallet": "0x0116090EfeC8A6c176A094d3094c58811a7eA39c"
+    },
+    "modules": {
+      "GuardianStorage": "0x7d6FAe26B090953A46098d7513b559B0a339Ee4d",
+      "TransferStorage": "0x67044E3c8D2E1658419e4E177B4D3F64d442D6B1",
+      "GuardianHandler": "0x1a32B366cfB226Acf3C9fe0489a88bB176a9e267",
+      "LockHandler": "0x1456d1d7BC82A64e389541f754351D85AE02a271",
+      "RecoveryHandler": "0x72E18a9812244f32aA1Bd9fB84979051DeDc8ce5",
+      "ApprovedTransfer": "0x291ffCA34a413205EaE535888c9D45D856D822FF",
+      "TokenTransfer": "0x101b60626A8073271fE2eFE59FB8fD74c108c2eC",
+      "TokenSwapHandler": "0xD905147bf6F6D52bee823890AFB55bc2a0DA8287",
+      "TransferHandler": "0x898779af1927e51187808AC69A0D03D54D0c8501"
+    },
+    "gitCommit": "2288128dd55fd551ab5a14c7aa28c5c740289cb4"
+  }

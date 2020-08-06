@@ -1,0 +1,14 @@
+node_modules
+migrations
+openzeppelin-solidity
+lib
+contracts/test/CryptoKitties.sol
+contracts/test/KyberNetworkTest.sol
+contracts/test/TestContract.sol
+contracts/test/TestERC20.sol
+contracts/test/tcap/utils/ERC20Approver.sol
+contracts/test/tcap/utils/NewTestModule.sol
+contracts/test/tcap/utils/NonCompliantGuardian.sol
+contracts/test/tcap/utils/TestDapp.sol
+contracts/test/tcap/utils/TestModule.sol
+contracts/test/tcap/utils/TestOnlyOwnerModule.sol
